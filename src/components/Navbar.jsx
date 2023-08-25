@@ -13,23 +13,25 @@ const Navbar = () => {
         <h1>
           <span>
             <BsFillHouseFill />
-            Real
+            Eladó
           </span>
-          Estate
+          Ingatlanok
         </h1>
-        <button className="btn">Sign In</button>
+        <button className="btn">
+          Belépés<script src=""></script>
+        </button>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a href="#">Home</a>
+            <a href="#">Főoldal</a>
           </li>
           <li>
-            <a href="#">Search</a>
+            <a href="#">Keresés</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#">Rólunk</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#">Kapcsolat</a>
           </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

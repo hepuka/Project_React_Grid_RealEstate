@@ -5,20 +5,19 @@ const Hero = () => {
   return (
     <div className="header">
       <div className="content">
-        <h1>Find the perfect place</h1>
+        <h1>Találd meg álmaid otthonát</h1>
         <p className="search-text">
-          Search the largest selection of luxury high-rise apartments,
-          multi-family homes, and luxury homes.
+          Keressen luxuslakások, családi házak legnagyobb választékában
         </p>
         <form className="search">
           <div>
-            <input type="text" placeholder="Enter Keyword.." />
+            <input type="text" placeholder="Keresés..." />
           </div>
           <div className="radio">
             <input type="radio" name="choose" checked />
-            <label>Buy</label>
+            <label>Kínálat</label>
             <input type="radio" name="choose" />
-            <label>Rent</label>
+            <label>Albérlet</label>
             <button type="submit">
               <AiOutlineSearch className="icon" />
             </button>

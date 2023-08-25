@@ -15,9 +15,9 @@ import LivingRoom from "../assets/living-room.jpg";
 const Featured = () => {
   return (
     <div className="featured">
-      <h1 className="featured-text">Top Featured Listings</h1>
+      <h1 className="featured-text">Legnépszerűbb hírdetések</h1>
       <p className="featured-text">
-        Selected listings by City, State, & Zip based on views.
+        Keress város, megye vagy irányítószám szerint.
       </p>
       <div className="container">
         <img className="span-3 image-grid-row-2" src={House1} alt="" />
@@ -27,40 +27,40 @@ const Featured = () => {
         <img src={Bathroom} alt="" />
         <div className="span-3 img-details">
           <div className="top">
-            <h2>123 Acme St. Dallas, TX</h2>
-            <p>House for Sale</p>
-            <p className="price">$2,677,000</p>
+            <h2>1123. Budapest, Rózsadomb 3.</h2>
+            <p>Eladó családi ház</p>
+            <p className="price">75.000.000 ft</p>
           </div>
           <div className="info-grid">
             <div>
               <div className="info">
-                <p className="bold">Bedrooms:</p>
+                <p className="bold">Szobák száma:</p>
                 <p>5</p>
               </div>
               <div className="info">
-                <p className="bold">Bathrooms:</p>
+                <p className="bold">Fürdőszobák száma:</p>
                 <p>7</p>
               </div>
             </div>
             <div>
               <div className="info">
-                <p className="bold">Square Feet:</p>
-                <p>8,138</p>
+                <p className="bold">Terület:</p>
+                <p>150nm</p>
               </div>
               <div className="info">
-                <p className="bold">Est Payment:</p>
-                <p>$14,797/mo</p>
+                <p className="bold">Havi bérleti díj:</p>
+                <p>350.000ft/hónap</p>
               </div>
             </div>
           </div>
         </div>
         <div className="span-2 right-img-details">
           <p>
-            A beautiful modern day home in the city with a full-size pool.
-            Spacious and luxurious home located in Texas. Including media room,
-            workout facility, and built-in sauna.{" "}
+            Egy modern otthon a város szélében, nagyméretű medencével. Tágas,
+            luxusotthon Budapest mellett. Az ingatlanban moziterem, edzőterem és
+            beépített szauna található.
           </p>
-          <button className="btn">View Listing</button>
+          <button className="btn">Megnézem</button>
         </div>
       </div>
 
